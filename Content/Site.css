@@ -1,0 +1,59 @@
+﻿/* Set a full-page background image */
+body {
+    margin: 0;
+    padding: 0;
+    background: url('/Content/Images/elevatebg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.login-box {
+    background-color: rgba(1, 76, 137, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+.poster-img {
+    /*display: block;*/
+    margin: 0 auto 20px;
+    /*max-width: 100%;*/
+    width:300px;
+    height: auto;
+}
